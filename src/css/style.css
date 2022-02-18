@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#board {
+    display: grid;
+    border: 5px solid black;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 5px;
+    border: 2px solid red;
+    font-size: 3rem;
+}
